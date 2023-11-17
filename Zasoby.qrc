@@ -1,0 +1,21 @@
+<RCC>
+    <qresource prefix="/">
+        <file>zdjecia/goniec_bialy.png</file>
+        <file>zdjecia/goniec_czarny.png</file>
+        <file>zdjecia/hetman_bialy.png</file>
+        <file>zdjecia/hetman_czarny.png</file>
+        <file>zdjecia/krolowa_biala.png</file>
+        <file>zdjecia/krolowa_czarna.png</file>
+        <file>zdjecia/pion_bialy.png</file>
+        <file>zdjecia/pion_czarny.png</file>
+        <file>zdjecia/skoczek_bialy.png</file>
+        <file>zdjecia/skoczek_czarny.png</file>
+        <file>zdjecia/wieza_biala.png</file>
+        <file>zdjecia/wieza_czarna.png</file>
+        <file>zdjecia/strzalka_lewo.png</file>
+        <file>zdjecia/strzalka_prawo.png</file>
+        <file>zdjecia/flaga.png</file>
+        <file>zdjecia/remis.png</file>
+        <file>zdjecia/cofanie.png</file>
+    </qresource>
+</RCC>

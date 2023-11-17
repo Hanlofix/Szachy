@@ -1,0 +1,33 @@
+\hypertarget{drawwindow_8h_source}{}\doxysection{drawwindow.\+h}
+\mbox{\hyperlink{drawwindow_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 \textcolor{preprocessor}{\#ifndef DRAWWINDOW\_H}}
+\DoxyCodeLine{2 \textcolor{preprocessor}{\#define DRAWWINDOW\_H}}
+\DoxyCodeLine{3 }
+\DoxyCodeLine{4 \textcolor{preprocessor}{\#include <QDialog>}}
+\DoxyCodeLine{5 \textcolor{preprocessor}{\#include "{}QMessageBox"{}}}
+\DoxyCodeLine{6 \textcolor{preprocessor}{\#include <\mbox{\hyperlink{gra_8h}{gra.h}}>}}
+\DoxyCodeLine{7 \(\backslash\)}
+\DoxyCodeLine{8 namespace Ui \{}
+\DoxyCodeLine{9 \textcolor{keyword}{class }\mbox{\hyperlink{class_draw_window}{DrawWindow}};}
+\DoxyCodeLine{10 \}}
+\DoxyCodeLine{11 }
+\DoxyCodeLine{19 \textcolor{keyword}{class }\mbox{\hyperlink{class_draw_window}{DrawWindow}} : \textcolor{keyword}{public} QDialog}
+\DoxyCodeLine{20 \{}
+\DoxyCodeLine{21     Q\_OBJECT}
+\DoxyCodeLine{22 }
+\DoxyCodeLine{23 \textcolor{keyword}{public}:}
+\DoxyCodeLine{24     \textcolor{keyword}{explicit} \mbox{\hyperlink{class_draw_window}{DrawWindow}}(QWidget *parent = \textcolor{keyword}{nullptr});}
+\DoxyCodeLine{25     \mbox{\hyperlink{class_draw_window}{\string~DrawWindow}}();}
+\DoxyCodeLine{26 }
+\DoxyCodeLine{27 \textcolor{keyword}{private}:}
+\DoxyCodeLine{28     Ui::DrawWindow *ui;}
+\DoxyCodeLine{29 }
+\DoxyCodeLine{30 \textcolor{keyword}{private} slots:}
+\DoxyCodeLine{35     \textcolor{keywordtype}{void} przyjmijRemis();}
+\DoxyCodeLine{40     \textcolor{keywordtype}{void} odrzucRemis();}
+\DoxyCodeLine{41 \};}
+\DoxyCodeLine{42 }
+\DoxyCodeLine{43 \textcolor{preprocessor}{\#endif }\textcolor{comment}{// DRAWWINDOW\_H}}
+
+\end{DoxyCode}

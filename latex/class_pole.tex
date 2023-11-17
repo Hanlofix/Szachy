@@ -1,0 +1,79 @@
+\hypertarget{class_pole}{}\doxysection{Pole Class Reference}
+\label{class_pole}\index{Pole@{Pole}}
+
+
+{\ttfamily \#include $<$pole.\+h$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_pole_add93c6d4f86ab28c15396094877a6781}{ustaw\+Figure}} (\mbox{\hyperlink{class_figura}{Figura}} $\ast$figura, \mbox{\hyperlink{_kolor_8h_a32224947cd4aeeebcb9794254d0ec3f5}{Kolor}} kolor, string nazwa\+Ikony)
+\begin{DoxyCompactList}\small\item\em Metoda odpowiedzialna za ustawienie koloru i nazwy zdjecia danej figury (atrybutow prywatnych obiektu klasy \mbox{\hyperlink{class_figura}{Figura}}) \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_figura}{Figura}} $\ast$ \mbox{\hyperlink{class_pole_a25cb2516456dbe2bf91f21dd33b3d7f5}{pobierz\+Figura}} ()
+\begin{DoxyCompactList}\small\item\em Metoda zwracajaca wskaznik na figure dla ktorej zostala wywolana ta metoda. \end{DoxyCompactList}\item 
+vector$<$ pair$<$ int, int $>$ $>$ \mbox{\hyperlink{class_pole_ae4b52d0d313fb94ffa814f7b7644d53a}{pobierz\+Mozliwe\+Ruchy}} (int x, int y)
+\begin{DoxyCompactList}\small\item\em Metoda kalkulująca mozliwe do wykonania ruchy figury znajdujacej sie na danym polu. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_pole_a25cb2516456dbe2bf91f21dd33b3d7f5}\label{class_pole_a25cb2516456dbe2bf91f21dd33b3d7f5}} 
+\index{Pole@{Pole}!pobierzFigura@{pobierzFigura}}
+\index{pobierzFigura@{pobierzFigura}!Pole@{Pole}}
+\doxysubsubsection{\texorpdfstring{pobierzFigura()}{pobierzFigura()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_figura}{Figura}} $\ast$ Pole\+::pobierz\+Figura (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Metoda zwracajaca wskaznik na figure dla ktorej zostala wywolana ta metoda. 
+
+\begin{DoxyReturn}{Returns}
+zwraca wskaznik na figure 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_pole_ae4b52d0d313fb94ffa814f7b7644d53a}\label{class_pole_ae4b52d0d313fb94ffa814f7b7644d53a}} 
+\index{Pole@{Pole}!pobierzMozliweRuchy@{pobierzMozliweRuchy}}
+\index{pobierzMozliweRuchy@{pobierzMozliweRuchy}!Pole@{Pole}}
+\doxysubsubsection{\texorpdfstring{pobierzMozliweRuchy()}{pobierzMozliweRuchy()}}
+{\footnotesize\ttfamily vector$<$ pair$<$ int, int $>$ $>$ Pole\+::pobierz\+Mozliwe\+Ruchy (\begin{DoxyParamCaption}\item[{int}]{x,  }\item[{int}]{y }\end{DoxyParamCaption})}
+
+
+
+Metoda kalkulująca mozliwe do wykonania ruchy figury znajdujacej sie na danym polu. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & Pierwsza wspolrzedna pola na, którym znajduje sie figura \\
+\hline
+{\em y} & Druga wspolrzedna pola na, ktorym znajduje sie figura \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Zwraca wektor pozycji, gdzie figura moze sie ruszyc z danego pola 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_pole_add93c6d4f86ab28c15396094877a6781}\label{class_pole_add93c6d4f86ab28c15396094877a6781}} 
+\index{Pole@{Pole}!ustawFigure@{ustawFigure}}
+\index{ustawFigure@{ustawFigure}!Pole@{Pole}}
+\doxysubsubsection{\texorpdfstring{ustawFigure()}{ustawFigure()}}
+{\footnotesize\ttfamily void Pole\+::ustaw\+Figure (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_figura}{Figura}} $\ast$}]{figura,  }\item[{\mbox{\hyperlink{_kolor_8h_a32224947cd4aeeebcb9794254d0ec3f5}{Kolor}}}]{kolor,  }\item[{string}]{nazwa\+Ikony }\end{DoxyParamCaption})}
+
+
+
+Metoda odpowiedzialna za ustawienie koloru i nazwy zdjecia danej figury (atrybutow prywatnych obiektu klasy \mbox{\hyperlink{class_figura}{Figura}}) 
+
+
+\begin{DoxyParams}{Parameters}
+{\em figura} & wskaznik na konkretna figure \\
+\hline
+{\em kolor} & kolor figury \\
+\hline
+{\em nazwa\+Ikony} & sciezka do zdjecia figury \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{pole_8h}{pole.\+h}}\item 
+\mbox{\hyperlink{pole_8cpp}{pole.\+cpp}}\end{DoxyCompactItemize}

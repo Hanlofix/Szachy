@@ -1,0 +1,68 @@
+\hypertarget{gra_8h_source}{}\doxysection{gra.\+h}
+\mbox{\hyperlink{gra_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 \textcolor{preprocessor}{\#ifndef GRA\_H}}
+\DoxyCodeLine{2 \textcolor{preprocessor}{\#define GRA\_H}}
+\DoxyCodeLine{3 }
+\DoxyCodeLine{4 \textcolor{preprocessor}{\#include "{}\mbox{\hyperlink{_kolor_8h}{Kolor.h}}"{}}}
+\DoxyCodeLine{5 \textcolor{preprocessor}{\#include "{}\mbox{\hyperlink{goniec_8h}{goniec.h}}"{}}}
+\DoxyCodeLine{6 \textcolor{preprocessor}{\#include "{}hetman.h"{}}}
+\DoxyCodeLine{7 \textcolor{preprocessor}{\#include "{}\mbox{\hyperlink{krol_8h}{krol.h}}"{}}}
+\DoxyCodeLine{8 \textcolor{preprocessor}{\#include "{}\mbox{\hyperlink{pion_8h}{pion.h}}"{}}}
+\DoxyCodeLine{9 \textcolor{preprocessor}{\#include "{}\mbox{\hyperlink{skoczek_8h}{skoczek.h}}"{}}}
+\DoxyCodeLine{10 \textcolor{preprocessor}{\#include "{}\mbox{\hyperlink{wieza_8h}{wieza.h}}"{}}}
+\DoxyCodeLine{11 \textcolor{preprocessor}{\#include "{}\mbox{\hyperlink{pole_8h}{pole.h}}"{}}}
+\DoxyCodeLine{12 \textcolor{preprocessor}{\#include "{}\mbox{\hyperlink{plansza_8h}{plansza.h}}"{}}}
+\DoxyCodeLine{13 \textcolor{preprocessor}{\#include <string>}}
+\DoxyCodeLine{14 \textcolor{preprocessor}{\#include <vector>}}
+\DoxyCodeLine{15 }
+\DoxyCodeLine{23 \textcolor{keyword}{class }\mbox{\hyperlink{class_gra}{Gra}}}
+\DoxyCodeLine{24 \{}
+\DoxyCodeLine{25 \textcolor{keyword}{public}:}
+\DoxyCodeLine{29      \mbox{\hyperlink{class_gra_a85a3fce34f62b6e87fbe6e9cf2419ca7}{Gra}}();}
+\DoxyCodeLine{30     \textcolor{comment}{//\string~Gra();}}
+\DoxyCodeLine{35 \textcolor{comment}{}    \textcolor{keywordtype}{void} \mbox{\hyperlink{class_gra_ade95a0169e92fcc595e02f926d787dd4}{ustawObecnyRuch}}();}
+\DoxyCodeLine{40     \mbox{\hyperlink{_kolor_8h_a32224947cd4aeeebcb9794254d0ec3f5}{Kolor}} \mbox{\hyperlink{class_gra_a6094e3b09bd393f0e8d45a37d2f460c6}{pobierzObecnyRuch}}();}
+\DoxyCodeLine{45     \mbox{\hyperlink{class_plansza}{Plansza}} *\mbox{\hyperlink{class_gra_afbc556cd56600bbf629c55f6b9d23a8e}{pobierzPlansze}}();}
+\DoxyCodeLine{50     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_gra_a6aa0ff26422ad59c15fcbe93332c7b05}{zatrzymajPlansze}}();}
+\DoxyCodeLine{55     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_gra_a261716235a1799e46816ae25ff11f21c}{ustawInformacjeKoniecGry}}();}
+\DoxyCodeLine{60     \textcolor{keywordtype}{bool} \mbox{\hyperlink{class_gra_a7c7e048f7acbf2928cb6462757e37f65}{pobierzInformacjeKoniecGry}}();}
+\DoxyCodeLine{65     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_gra_a3e442b606ffa9ad4d67ff7d35e98fca0}{ustawNumerTury}}();}
+\DoxyCodeLine{70     \textcolor{keywordtype}{int} \mbox{\hyperlink{class_gra_afc88d13e2e70fcb3b717a8886985426c}{pobierzNumerTury}}();}
+\DoxyCodeLine{76     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_gra_ad92b410f2d15d3c82537a99bbace71df}{ustawNumerPosuniecia}}(\textcolor{keywordtype}{int} x);}
+\DoxyCodeLine{81     \textcolor{keywordtype}{int} \mbox{\hyperlink{class_gra_a37cf254072759ef197508be074bd6767}{pobierzNumerPosuniecia}}();}
+\DoxyCodeLine{87     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_gra_a5fb12ea21cf3bbec3c4ee9421ab8d3f2}{dodajRuchDoHistorii}}(pair<int,int> pozycja);}
+\DoxyCodeLine{92     vector <pair<int,int>> \mbox{\hyperlink{class_gra_a65b6a62dac9df58d4ba68ba59aa349ba}{pobierzHistorieRuchow}}();}
+\DoxyCodeLine{98     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_gra_a606211186bc5773495171f5294ed8c02}{dodajPozycjePoczatkowaDoHistorii}}(pair<int,int> pozycja);}
+\DoxyCodeLine{103     vector <pair<int,int>> \mbox{\hyperlink{class_gra_a2c93529d46d6e1298990287446abbc19}{pobierzHistoriePozycjiPoczatkowych}}();}
+\DoxyCodeLine{108     \textcolor{keywordtype}{bool} \mbox{\hyperlink{class_gra_ae02469cc932ee3f01b1f273a02adab0e}{pobierzZatrzymanieGry}}();}
+\DoxyCodeLine{114     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_gra_abdf5d02da3b9f61f5846e7149d6c44e8}{ustawOstatnioZbitaFigure}}(\mbox{\hyperlink{class_figura}{Figura}} *figura);}
+\DoxyCodeLine{119     \mbox{\hyperlink{class_figura}{Figura}} *\mbox{\hyperlink{class_gra_a8873db0a0f053108c4905ccf318f6d18}{pobierzOstatnioZbitaFigure}}();}
+\DoxyCodeLine{124     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_gra_a83901e98fa25b7a78cd8772a4acd4c3b}{ustawPozycjaPoczatkowa}}(pair<int,int> pozycja);}
+\DoxyCodeLine{129     pair<int,int> \mbox{\hyperlink{class_gra_a7bd072aa80236c1f08ca124dd3554aa8}{pobierzPozycjaPoczatkowa}}();}
+\DoxyCodeLine{135     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_gra_a047523725075efac59770b9a26cba824}{ustawPozycjaPozadanegoRuchu}}(pair<int,int> pozycja);}
+\DoxyCodeLine{140     pair<int,int> \mbox{\hyperlink{class_gra_a4e03f823951f2119d80c4e05f35ab7a1}{pobierzPozycjaPozadanegoRuchu}}();}
+\DoxyCodeLine{146     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_gra_a86b5e682b6aac797e7b8e7281cedcdef}{ustawOstatnioPoruszonaFigura}}(\mbox{\hyperlink{class_figura}{Figura}} *figura);}
+\DoxyCodeLine{151     \mbox{\hyperlink{class_figura}{Figura}} * \mbox{\hyperlink{class_gra_aaba0532376abea0b21cdc89bdb074d21}{pobierzOstatnioPoruszonaFigura}}();}
+\DoxyCodeLine{152 }
+\DoxyCodeLine{153 }
+\DoxyCodeLine{154 \textcolor{keyword}{private}:}
+\DoxyCodeLine{155 }
+\DoxyCodeLine{156     \mbox{\hyperlink{_kolor_8h_a32224947cd4aeeebcb9794254d0ec3f5}{Kolor}} obecnyRuch;}
+\DoxyCodeLine{157     \mbox{\hyperlink{class_plansza}{Plansza}} *plansza;}
+\DoxyCodeLine{158     \mbox{\hyperlink{class_figura}{Figura}} * ostatnioZbitaFigura;}
+\DoxyCodeLine{159     \mbox{\hyperlink{class_figura}{Figura}} * ostatnioPoruszonaFigura;}
+\DoxyCodeLine{160     \textcolor{keywordtype}{bool} graZatrzymana = \textcolor{keyword}{false};}
+\DoxyCodeLine{161     \textcolor{keywordtype}{bool} czyToKoniecGry = \textcolor{keyword}{false};}
+\DoxyCodeLine{162     \textcolor{keywordtype}{int} numerPosuniecia = 0;}
+\DoxyCodeLine{163     \textcolor{keywordtype}{int} numerTury = 1;}
+\DoxyCodeLine{164     vector <pair<int, int>> historiaRuchow;}
+\DoxyCodeLine{165     vector <pair<int, int>> historiaPoczatkowychPol;}
+\DoxyCodeLine{166     pair <int, int> pozycjaPoczatkowa; \textcolor{comment}{//pozycja poczatkowa figury z ktorej rozwazamy jej dalsze ruchy}}
+\DoxyCodeLine{167     pair <int, int> pozycjaPozadanegoRuchu; \textcolor{comment}{//miejsce w  ktore chcemy sie ruszyc}}
+\DoxyCodeLine{168 }
+\DoxyCodeLine{169 \};}
+\DoxyCodeLine{170 }
+\DoxyCodeLine{171 \textcolor{preprocessor}{\#endif }\textcolor{comment}{// GRA\_H}}
+
+\end{DoxyCode}
